@@ -12,6 +12,7 @@ public class SnakeGame extends JFrame {
         add(board);
         pack();
         setResizable(false);
+        setTitle("Snake Game");
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }

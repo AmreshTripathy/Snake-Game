@@ -53,8 +53,8 @@ public class Board extends JPanel implements ActionListener {
         DOTS = 3;
 
         // initialize Snake's position
-        x[0] = 50;
-        y[0] = 50;
+        x[0] = 150;
+        y[0] = 150;
 
         for (int i = 1; i < DOTS; i++) {
             x[i] = x[0] + DOT_SIZE * i;
